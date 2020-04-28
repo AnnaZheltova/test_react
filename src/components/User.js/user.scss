@@ -1,0 +1,74 @@
+.name1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1a1a1a;
+    margin-left: 130px;
+
+}
+.nameClicks {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1a1a1a;
+    margin-left: 130px;
+    margin-top: 24px;
+}
+.nameViews {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 29px;
+    color: #1a1a1a;
+    margin-left: 130px;
+    margin-top: 24px;
+}
+.chart {
+    margin-top: 24px;
+}
+canvas {
+    margin-left: 130px;
+    width: 80% !important;
+    height: auto !important;
+}
+.usr > .usr_bottom {
+    margin-top: 48px;
+}
+.usr {
+    min-height: max-content;
+}
+
+@media screen and (max-width: 1024px) {
+    h1,
+    .bottomh1,
+    .name1,
+    .nameClicks,
+    .nameViews {
+        font-size: 2.5vmin;
+        line-height: 1em;
+    }
+    p,
+    .bottom-p,
+    label {
+        font-size: 1.5vw;
+        margin-top: auto;
+    }
+    .name1,
+    .nameClicks,
+    .nameViews,
+    canvas {
+        margin-left: 5vw;
+    }
+    .min-vh-100 > .row {
+        width: 60%;
+    }
+    form > .btn {
+        font-size: 1.5vmin;
+        margin-top: auto;
+    }
+    input {
+        font-size: 1.2vw;
+    }
+}

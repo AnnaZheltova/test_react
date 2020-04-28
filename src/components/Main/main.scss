@@ -1,0 +1,371 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700;1,900&display=swap");
+$font-family: "Montserrat";
+$color: #ffffff;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $font-family;
+}
+.logoTxt {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    color: $color;
+}
+h4 {
+    margin-top: 48px;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: $color;
+}
+.card-img-overlay {
+    margin-left: 130px;
+    margin-top: 24px;
+}
+
+.vstext {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 142%;
+    text-align: center;
+    color: #3a80ba;
+    margin-top: 32px;
+    padding: 17px 35px 16px 35px;
+}
+.top-p1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 142%;
+    color: $color;
+    margin-top: 24px;
+}
+.iphone {
+    margin-top: 2.65%;
+}
+.txt1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #1a1a1a;
+    margin-top: 16px;
+}
+.txt1p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 142%;
+    text-align: center;
+    color: #7e7e7e;
+    margin-top: 24px;
+}
+.card {
+    background: $color;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 32px;
+    margin-right: 20px;
+}
+.M1card-img {
+    max-width: 106px;
+    margin: 48px auto 0 auto;
+}
+.M1card-img2 {
+    margin: 63.71px auto 0 auto;
+    max-width: 55.6px;
+}
+.M1row {
+    margin: 40px 130px;
+}
+.card-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1a1a1a;
+    white-space: nowrap;
+}
+.card-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 142%;
+    color: #7e7e7e;
+}
+.card-text:last-child {
+    margin-bottom: 48px;
+}
+
+.M2 > .row {
+    margin-top: 115px;
+    padding-left: 130px;
+    background: linear-gradient(93.19deg, #255d8b 2.29%, #3a80ba 96.79%);
+}
+
+.M2h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: $color;
+    margin-top: 72px;
+}
+.M2p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 142%;
+    color: $color;
+    margin-top: 16px;
+}
+.M2btn {
+    margin-top: 24px;
+    padding: 16px 64px 17px 64px;
+    margin-bottom: 80px;
+}
+.macbook {
+    margin-top: -34px;
+}
+.M3 {
+    padding-top: 64px;
+    background: url("./Rectangle\ 51.png") right/37% 100% no-repeat;
+    background-position-y: 3vw;
+}
+.M3row {
+    margin: 32px 130px 0 130px;
+}
+.M3row > .card > .card-title {
+    margin-top: 32px;
+}
+.M3card-img {
+    margin-top: 19px;
+    width: 210px;
+    height: 122px;
+}
+.M3card-h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #1a1a1a;
+    margin-top: 16px;
+}
+.M3card-h3-2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 68px;
+    color: #3a80ba;
+}
+hr {
+    margin: 0 65px;
+}
+.M3card-text {
+    margin-top: 24px;
+}
+.M3btn {
+    background: #3a80ba;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 142%;
+    text-align: center;
+    color: $color;
+    white-space: nowrap;
+    padding: 16px 52px 17px 53px;
+}
+.M3btn2 {
+    background: #3a80ba;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 142%;
+    text-align: center;
+    color: $color;
+    white-space: nowrap;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    padding: 16px 52px 17px 53px;
+}
+.M3bottom {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 142%;
+    text-align: center;
+    color: #7e7e7e;
+    margin-top: 32px;
+}
+.M3bottom > b {
+    color: #3a80ba;
+}
+.bottom {
+    margin-top: 48px;
+    background: url("./Rectangle\ 54.png") bottom/100% 100% no-repeat;
+    padding-top: 26px;
+}
+.input-group {
+    max-width: 579px;
+    height: 64px;
+    border: 1px solid #f1f1f1;
+    background: #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.form-control {
+    height: 64px;
+    padding-top: 18.46px;
+    padding-left: 19px;
+    padding-bottom: 19.54px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 162%;
+    display: flex;
+    align-items: center;
+    color: #b9b9b9;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.bottom-btn {
+    background: #3a80ba;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 142%;
+    text-align: center;
+    padding: 17px 48px 16px 48px;
+    color: #ffffff;
+    margin: 4.46px 4px 3.54px 8px;
+}
+.bottom > .row {
+    margin-left: 130px;
+    padding-bottom: 30.46px;
+    margin-top: 24px;
+}
+.bottomh1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.bottom-p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 142%;
+    text-align: center;
+    margin-top: 8px;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1024px) {
+    .logoTxt,
+    h4,
+    h1,
+    h3,
+    .txt1,
+    .card-title,
+    .M2h4, .M3card-h3, .M3card-h3-2, .bottomh1 {
+        font-size: 2.5vmin;
+        line-height: 1em;
+        margin-top: auto;
+    }
+    .top-p1,
+    .txt1p,
+    .card-text,
+    .M2p, .M3bottom, .bottom-p {
+        font-size: 1.5vw;
+        margin-top: auto;
+    }
+    .top > .card-img-overlay {
+        margin-left: 10%;
+        margin-top: 2vw;
+    }
+    .vstext,
+    .M2btn, .M3btn, .M3btn2, .bottom-btn {
+        padding: 7px 20px 6px 20px;
+        font-size: 1.5vmin;
+        margin-top: auto;
+    }
+    .iphone {
+        width: 28vw;
+    }
+    .M1row , .bottom > .row{
+        margin: 40px 8vw;
+        margin-bottom: 0;
+    }
+    .card {
+        margin-right: 3vw;
+    }
+    .M1card-img {
+        margin: 3vw auto;
+    }
+    .M1card-img2 {
+        margin: 4.8vw auto;
+        width: 40%;
+    }
+    .card-text:last-child {
+        margin-bottom: 20px;
+    }
+    .M2h4 {
+        padding-top: 3%;
+    }
+    .M2btn {
+        margin-bottom: 3vw;
+    }
+    .M2 > .row {
+        margin-top: 5vw;
+        padding-left: 3vw;
+    }
+    .macbook {
+        margin-top: -3vw;
+    }
+    .M3 {
+        padding-top: 3.5vw;
+       
+    }
+    .M3row {
+        margin: 32px 3vw;
+    }
+    .M3card-img {
+        width: 100%;
+        height: auto;
+    }
+    .card-body{
+        padding: 0;
+    }
+
+    .input-group{
+        width: 60%;
+        height: 20%;
+    }
+    .bottom-btn{
+        margin: auto;
+    }
+    .bottom > .row{
+        margin-top: 20px;
+        padding-bottom: 2vw;
+    }
+    .form-control{
+        width: auto;
+        height: 20%;
+        margin: auto;
+        font-size: 1.5vmin;
+        padding: 8px 12px 9px 9px;
+    }
+}
